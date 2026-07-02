@@ -17,4 +17,9 @@ public class AwsTrainApplication {
 	public String helloWorld() {
 		return "Hello World! Minha API no Spring Boot funcionou! 🚀";
 	}
+	@GetMapping("/amiga")
+	public String mensagemAmiga() {
+		return "Te amo amiga, você é muito importante pra mim! ❤️";
+	}
+
 }
